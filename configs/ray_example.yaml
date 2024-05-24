@@ -1,8 +1,8 @@
 # Folders/data structure.
-root_folder: ./data  # root folder of image data
-ids_file: ./data/ids.lst  # image identity file, list of image file names w/o file extension (e.g. jpg, png)
+root_folder: ./newData  # root folder of image data
+ids_file: ./newData/ids.lst  # image identity file, list of image file names w/o file extension (e.g. jpg, png)
 data_folder: images
-file_extension_data_in: jpg
+file_extension_data_in: png
 
 image_folder: images_cropped_ray  # folder to save preprocessed images
 mask_folder: masks_ray  # folder to save circle masks

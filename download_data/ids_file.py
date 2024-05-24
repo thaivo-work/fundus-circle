@@ -1,7 +1,7 @@
 import os
 
 if __name__ == "__main__":
-    data_path = "../data/images"
+    data_path = "./images"
     list_file_names = os.listdir(data_path)
     
     list_file_names_wo_extension = [file.split('.')[0] for file in list_file_names]

@@ -63,7 +63,7 @@ if __name__ == "__main__":
                 resize_canny_edge=cfg["resize_canny_edge"],
                 sigma_scale=cfg["sigma_scale"],
                 circle_fit_steps=cfg["circle_fit_steps"],
-                λ=cfg["λ"],
+                # λ=cfg["λ"],
                 remove_rectangles=cfg["remove_rectangles"],
                 minimal_save=cfg["minimal_save"],
             )
@@ -100,7 +100,7 @@ if __name__ == "__main__":
                 resize_canny_edge=cfg["resize_canny_edge"],
                 sigma_scale=cfg["sigma_scale"],
                 circle_fit_steps=cfg["circle_fit_steps"],
-                λ=cfg["λ"],
+                # λ=cfg["lamda"],
                 remove_rectangles=cfg["remove_rectangles"],
                 minimal_save=cfg["minimal_save"],
             )
